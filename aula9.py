@@ -23,3 +23,4 @@ print("Módulo", modulo)
 print(10 % 8 == 0 )
 
 print(16 % 8 == 0 )
+
