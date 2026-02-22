@@ -20,6 +20,9 @@ carro_multado_radar_1 = carro_passou_no_radar_1 and vel_carro_passou_radar_1
 if vel_carro_passou_radar_1:
     print("O carro passou da velociade do radar 1")
 
+if carro_passou_no_radar_1:
+    print("Carro passou no radar 1")
+
 if carro_multado_radar_1:
     print("Carro multado em radar 1")
 
