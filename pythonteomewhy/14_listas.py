@@ -32,7 +32,7 @@ print("maior idade: ", max(idades))
 # %%
 
 
-julio = ["julio", 22, True, "estudante", 7777, ["calculo", "ga", "algelin", "quimica"]]
+julio = ["julio", 22, "cezar", "estudante", 7777, ["calculo", "ga", "algelin", "quimica"]]
 print("tamanho do julio", len(julio))
 print(julio[5][0])
 materias = julio[5]
@@ -40,4 +40,12 @@ segunda_materia = materias[1]
 print(segunda_materia)
 
 print(julio[-1][-2])
+print(julio[0:4])
+print(julio[5][-2:])
+# julio[ start : stop ]
+
+
+
+
+
 # %%
